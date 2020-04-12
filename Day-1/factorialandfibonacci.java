@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public static class factorialandfibonacci
+public class factorialandfibonacci
 
 {
 
