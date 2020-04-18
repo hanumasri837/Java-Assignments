@@ -1,3 +1,5 @@
+#inheritance
+
 class parentclass{
     String str="Good morning" ;
     public void wish(){
