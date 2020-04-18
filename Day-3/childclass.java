@@ -1,4 +1,4 @@
-#inheritance
+//inheritance
 class parentclass{
     protected String str="Good morning";
     protected int a=10;
