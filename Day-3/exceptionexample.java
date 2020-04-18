@@ -21,6 +21,7 @@ catch (InterruptedException e)
 
 }
     
+    
 }
 
 public static void main(String args[]) throws Exception{
@@ -42,6 +43,9 @@ catch( Exception e)
 {
     System.out.println("catch block for main method");
 }
+ finally{
+ 
 System.out.println("main method");
+ }
 }
 }
