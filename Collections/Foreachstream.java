@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class foreachstream{
+public class Foreachstream{
 public static void main(String []args){
 
 List<Integer> listele=new ArrayList<Integer>();  
