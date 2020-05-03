@@ -1,9 +1,9 @@
  import java.util.*;
 
-public class element{
+public class Element{
 public static void main(String []args){
 
-element ele= new element();
+Element ele= new Element();
 ArrayList<Object> listele=new ArrayList<Object>();  
 listele.add(10);
 listele.add("added objects");
