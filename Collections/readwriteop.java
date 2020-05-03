@@ -1,6 +1,6 @@
  import java.util.*;
 
-public class readwriteop{
+public class Readwriteop{
     
 public void setimplementation(){
     Set<Integer> setele=new HashSet<Integer>();
@@ -26,7 +26,7 @@ public void mapimplementation(){
     System.out.println(""+i+"->"+ mapele.get(i));
 }
 public static void main(String []args){
-readwriteop op= new readwriteop();
+Readwriteop op= new Readwriteop();
 op.setimplementation();
 op.listimplementation();
 op.mapimplementation();
