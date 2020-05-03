@@ -2,7 +2,7 @@
 
 public class Readwriteop{
     
-public void setimplementation(){
+public void setImplementation(){
     Set<Integer> setele=new HashSet<Integer>();
     for(int i =0;i< 10;i++)
     setele.add(i);
@@ -10,15 +10,15 @@ public void setimplementation(){
     System.out.println(i);
     
 }
-public void listimplementation(){
-    List<Object> listele=new ArrayList<Object>();  
-listele.add(10);
-listele.add("added objects");
-listele.add(11.11);
-for (int i=0;i<listele.size();i++)
-System.out.println(listele.get(i));
+public void listImplementation(){
+    List<Object> listEle=new ArrayList<Object>();  
+listEle.add(10);
+listEle.add("added objects");
+listEle.add(11.11);
+for (int i=0;i<listEle.size();i++)
+System.out.println(listEle.get(i));
 }
-public void mapimplementation(){
+public void mapImplementation(){
     Map<Integer, String> mapele = new HashMap<Integer, String>();
     mapele.put(1,"HTML");
     mapele.put(2,"PHP");
@@ -27,9 +27,9 @@ public void mapimplementation(){
 }
 public static void main(String []args){
 Readwriteop op= new Readwriteop();
-op.setimplementation();
-op.listimplementation();
-op.mapimplementation();
+op.setImplementation();
+op.listImplementation();
+op.mapImplementation();
 
 
 }
