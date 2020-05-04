@@ -1,3 +1,7 @@
+//-- Override equals and hashcode methods in a class and use them collection framework related classes
+
+
+
 import java.util.*;
 
 class HashCodeexample{
