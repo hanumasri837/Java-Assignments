@@ -4,7 +4,7 @@
 import java.util.*;
 import java.io.*;  
 
-class ComparatorExample{
+class ComparatorExample implements Comparable<ComparatorExample>{
     int age;
     String val;
 ComparatorExample(int x,String y){
@@ -15,7 +15,11 @@ public String toString()
     { 
         return this.age + " " + this.val; 
     } 
-
+@Override
+    public int compareTo( ComparatorExample e){
+        return this.age- e.age;
+    }
+    
 }
 
 class Comparatorover implements Comparator<ComparatorExample>{
@@ -35,7 +39,9 @@ public class EqualsExample1{
       array.add( new ComparatorExample(42,"Will")) ;       
       array.add( new ComparatorExample(31,"Duke")) ;
           
-    System.out.println(array);
+    System.out.println("Before comparing using Comparable"+array);
+      Collections.sort(array);
+          System.out.println("before comparing uing Comparator"+array);
 
       Collections.sort(array,new Comparatorover());
       System.out.println(array);
